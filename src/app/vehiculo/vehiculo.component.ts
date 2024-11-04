@@ -7,7 +7,6 @@ interface VehiculoAgrupado {
   cantidad: number;
 }
 
-
 @Component({
   selector: 'app-vehiculo',
   templateUrl: './vehiculo.component.html',
