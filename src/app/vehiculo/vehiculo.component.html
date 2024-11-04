@@ -26,6 +26,12 @@
           </tr>
         </tbody>
       </table>
+      <table>
+        <tr *ngFor="let grupo of vehiculosAgrupados">
+          <td>{{ grupo.marca }}</td>
+          <td>{{ grupo.cantidad }}</td>
+        </tr>
+      </table>
     </div>
   </div>
   <footer class="footer text-center mt-4">
